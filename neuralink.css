@@ -1,0 +1,185 @@
+
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d8d8d8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header{
+    background-color: #005bb5;
+    width: 100%;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #007acc;
+    margin-top: 1em;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.toolbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #1c0265;
+}   
+
+.toolbar li {
+    margin: 0; 
+}
+
+.toolbar a {
+    display: block;
+    padding: 15px 20px; 
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toolbar a:hover {
+    background-color: #180260; 
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0073e6; 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    width: 100%; 
+    background-color: #1c0265; 
+    color: white; 
+    padding: 15px 0; 
+    text-align: center; 
+    bottom: 0; 
+    left: 0; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
+    font-weight: bold; 
+    font-size: 1em; 
+}
+
+.implant-section {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+
+.implant-section img {
+    width: 50%; 
+    max-width: 600px; 
+    margin-top: 45px;
+    height: auto;
+}
+
+
+.implant-content {
+    width: 50%; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.robot-section {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+.robot-section img {
+    width: 50%; 
+    max-width: 600px; 
+    height: auto;
+}
+
+.robot-content {
+    width: 50%; 
+}
+.image-container {
+    text-align: center; 
+}
+.image-container {
+    text-align: center; 
+}
+
+.image-container img {
+    display: inline-block; 
+    margin-top: 20px;
+}
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: inline-block;
+}
+
+
+
+
